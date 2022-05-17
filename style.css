@@ -1,0 +1,89 @@
+*{
+    font-size: 16px;
+   
+}
+
+body, html{
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/*Navbar*/
+
+.navbar{
+    background-color: rgb(53, 58, 64);
+   
+
+}
+
+.nav-link{
+    color: rgb(178, 177, 177);
+}
+
+.navBlanco{
+    color: white;
+}
+
+.navVerde{
+    color: rgb(45,138,68);
+}
+
+/*Cards*/
+
+.card .border{
+    border: solid 20px;
+}
+
+.card:hover{
+    background-color: rgba(33, 127, 210, 0.1);
+    bottom: 0.3rem;
+    cursor: pointer;
+    
+}
+
+.card:active{
+    background-color: rgba(8, 38, 65, 0.3);
+    
+ 
+    
+}
+
+/*forma*/
+
+.resaltadoForm{
+
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+
+}
+
+.precioTotal {
+    background: aqua;
+}
+
+/*Navegador footer*/
+.navFooter{
+    height: 4rem;
+    background-image: linear-gradient(to right, rgb(28, 56, 70) , rgb(29, 82, 113));;
+    color: white;
+    
+
+}
+
+.navFooter a{
+    text-decoration: none;
+    color: white;
+}
+
+.navFooter a:hover{
+    color: darkgrey;
+}
+
+@media (max-width: 767px) {
+    .navFooter {
+        justify-content: center;
+    }
+}
