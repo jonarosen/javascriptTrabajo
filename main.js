@@ -41,35 +41,14 @@ function seleccionar(){
 /*Cargar datos en formulario al seleccionar las tarjetas */
 
 
-function elegir1() {
-    document.getElementById("categoria").value=1;
+function elegir(categoria){
+    document.getElementById("categoria").value=categoria;
     document.getElementById("nom").focus();
     document.getElementById("nom").scrollIntoView();
     document.getElementById("cantidad").value=1;
     calcularTotal()
-    
-    
 }
-
-function elegir2() {
-    document.getElementById("categoria").value=2;
-    document.getElementById("nom").focus();
-    document.getElementById("nom").scrollIntoView();
-    document.getElementById("cantidad").value=1;
-    calcularTotal()
-    
-    
-}
-
-function elegir3() {
-    document.getElementById("categoria").value=3;
-    document.getElementById("nom").focus();
-    document.getElementById("nom").scrollIntoView();
-    document.getElementById("cantidad").value=1;
-    calcularTotal()
-    
-    
-}
+ 
 
 
 function seleccionar(){
@@ -99,5 +78,4 @@ function upperCaseNom() {
 
 
 
- 
 

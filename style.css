@@ -17,6 +17,11 @@ body, html{
 
 }
 
+#navbarSupportedContent{
+    margin-right: auto;
+    margin-left: 12rem;
+}
+
 .nav-link{
     color: rgb(178, 177, 177);
 }
